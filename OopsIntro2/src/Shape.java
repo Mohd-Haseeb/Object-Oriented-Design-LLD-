@@ -4,11 +4,12 @@ public abstract class Shape {
 
     String color;
 
+    // we can have constructor for abstract classes
     public Shape(){
         this.color = "Yellow";
         System.out.println("Constructor of Abstract class -> Shape");
     }
 
     // abstract method -> No implementation, only declarations
-    abstract void area();
+    public abstract int area();
 }

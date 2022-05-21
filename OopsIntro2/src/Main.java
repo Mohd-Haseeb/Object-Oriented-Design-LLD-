@@ -1,24 +1,23 @@
 package OopsIntro2.src;
 
-import OopsIntro2.utils.Male;
-
 public class Main {
     
     public static void main(String[] args) {
 
 
         // Abstraction
-        
-
+        Square square = new Square();
+        System.out.println("Area is "+ square.area());
+        System.out.println(square.color);
 
         // Encapsulation
-        Calculate c1 = new Calculate();
+        // Calculate c1 = new Calculate();
 
-        System.out.println(c1.getLength());
+        // System.out.println(c1.getLength());
         
-        c1.setLength(49);
+        // c1.setLength(49);
         
-        System.out.println(c1.getLength());
+        // System.out.println(c1.getLength());
 
         // Human h1 = new Human();
 
@@ -31,9 +30,9 @@ public class Main {
 
         // System.out.println(f1.weight);
 
-        Male m1 = new Male();
-        System.out.println(m1.age);
-        System.out.println(m1.weight);
+        // Male m1 = new Male();
+        // System.out.println(m1.age);
+        // System.out.println(m1.weight);
 
     }
 }
